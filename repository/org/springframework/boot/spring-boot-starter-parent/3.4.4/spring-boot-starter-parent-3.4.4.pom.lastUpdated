@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 14 12:57:15 BRT 2025
+db000923c1eacc3c5e7e4320d2beaf06a160180b@default-central-brain-https\://nexusrepository.bradesco.com.br\:8443/repository/brain-maven-central/.lastUpdated=1744646132475
+https\://nexusrepository.bradesco.com.br\:8443/repository/brain-maven-central/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:3.4.4 from/to central-brain (https\://nexusrepository.bradesco.com.br\:8443/repository/brain-maven-central)\: Connect to nexusrepository.bradesco.com.br\:8443 [nexusrepository.bradesco.com.br/200.155.91.59] failed\: Connect timed out
+https\://repo.maven.apache.org/maven2/.lastUpdated=1744646235803

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+<!--    <localRepository>${user.home}/.m2/repository</localRepository>-->
+
+    <interactiveMode>true</interactiveMode>
+
+    <offline>false</offline>
+
+    <pluginGroups>
+        <!-- Exemplo: <pluginGroup>org.codehaus.mojo</pluginGroup> -->
+    </pluginGroups>
+
+    <proxies>
+        <!-- Se estiver atrás de proxy, configure aqui -->
+        <!--
+        <proxy>
+          <id>example-proxy</id>
+          <active>true</active>
+          <protocol>http</protocol>
+          <host>proxy.example.com</host>
+          <port>8080</port>
+          <username>proxyuser</username>
+          <password>somepassword</password>
+          <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
+        </proxy>
+        -->
+    </proxies>
+
+    <servers>
+        <!-- Configuração de repositórios privados ou autenticação de deploy -->
+    </servers>
+
+    <mirrors>
+        <!-- Pode adicionar mirrors como do Maven Central ou repositórios corporativos -->
+        <!--
+        <mirror>
+          <id>central</id>
+          <name>Maven Central Mirror</name>
+          <url>https://repo1.maven.org/maven2/</url>
+          <mirrorOf>central</mirrorOf>
+        </mirror>
+        -->
+    </mirrors>
+
+    <profiles>
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <maven.compiler.source>17</maven.compiler.source>
+                <maven.compiler.target>17</maven.compiler.target>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            </properties>
+        </profile>
+    </profiles>
+
+</settings>
